@@ -239,3 +239,19 @@ body {
         bottom: 1rem;
     }
 }
+
+.bank-initials {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.375rem;
+    font-weight: 700;
+    font-size: 0.9rem;
+    letter-spacing: 0.03em;
+    color: #fff;
+}
+.bank-initials.br { background: #003b7a; }
+.bank-initials.al { background: #0d6e3f; }
+.bank-initials.bhd { background: #00a651; }
